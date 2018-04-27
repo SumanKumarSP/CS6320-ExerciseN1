@@ -15,7 +15,7 @@ module.exports = router;
 router.get('/mongodb', function (request, response) {
 
     //mongodb.MongoClient.connect('mongodb://heroku_pmk6n54s:penh0a964unc8citdi3c1943cv@ds153869.mlab.com:53869/heroku_pmk6n54s', function(err, client) {
-    mongodb.MongoClient.connect('mongodb://heroku_2v45zr2n:Welcome123@ds149069.mlab.com:49069/heroku_2v45zr2n', function(err, client) {
+    mongodb.MongoClient.connect('mongodb://suman:suman@ds149069.mlab.com:49069/heroku_2v45zr2n', function(err, client) {
         // mongodb.MongoClient.connect(process.env.MONGODB_URI, function(err, db) {  // works with mongodb v2 but not v3
         if(err) throw err;
         //get collection of routes
